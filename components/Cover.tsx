@@ -8,13 +8,13 @@ const Cover = () => {
       <div className="flex justify-center md:justify-normal">
         <div className="flex justify-center">
           <ProfilePic />
-          <div className=" flex items-center ml-7">
-            <div className="">
-              <p className={`${source.className} text-3xl text-black-color`}>
-                Arjun Yadav
-              </p>
-              <p className=" font-mono text-xs">Developer</p>
-            </div>
+        </div>
+        <div className=" flex items-center ml-7">
+          <div className=" mx-4">
+            <p className={`${source.className} text-3xl text-black-color`}>
+              Arjun Yadav
+            </p>
+            <p className=" font-mono text-xs">Developer</p>
           </div>
         </div>
       </div>
