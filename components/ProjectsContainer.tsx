@@ -35,7 +35,7 @@ const ProjectsContainer = () => {
   return (
     <div>
       {projects.map((item, index) => {
-        return <ProjectCard {...item} />;
+        return <ProjectCard {...item} key={index} />;
       })}
     </div>
   );
