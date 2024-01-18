@@ -19,7 +19,7 @@ const Navbar: React.FC<NavbarProps> = ({ onToggleSidebar }) => {
         <Link href="/about">About</Link>
       </ul>
       <button
-        className={`md:hidden mx-3 justify-end`}
+        className={`lg:hidden mx-3 justify-end`}
         onClick={onToggleSidebar}
       >
         <FaBars />
