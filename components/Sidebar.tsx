@@ -60,9 +60,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggleSidebar }) => {
     <aside
       className={`${
         isOpen ? "" : "hidden"
-      } h-5/6 w-56 ml-10 mt-10 py-10 p-4 bg-card-primary lg:flex flex-col justify-center items-center rounded-md fixed space-y-7 z-10 text-white`}
+      } md:h-5/6 max-h-screen w-56 ml-10 mt-14 py-10 p-4 bg-card-primary lg:flex flex-col justify-center items-center rounded-md fixed space-y-7 z-10 text-white`}
     >
-      <div className=" flex justify-end text-xl md:hidden">
+      <div className=" flex justify-end text-xl lg:hidden">
         <button onClick={onToggleSidebar}>
         <IoMdClose />
         </button>

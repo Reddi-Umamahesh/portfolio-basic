@@ -6,3 +6,16 @@ body {
   margin: 0%;
   background-color: black;
 }
+
+.text-gradient::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, #ff8a00, #e52e71, #ff8a00);
+  z-index: -1;
+  opacity: 0.5; /* Adjust as needed for the desired effect */
+  pointer-events: none;
+}

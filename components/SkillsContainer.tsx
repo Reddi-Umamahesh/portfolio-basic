@@ -11,7 +11,7 @@ const skills: Skill = {
   frontend: "HTML, CSS, Tailwind, JavaScript, TypeScript, React Js, Next Js 13",
   backend: "Node Js, Express Js, Next Auth, JWT",
   database: "MongoDB, MySql",
-  miscellaneous: "GIT, WordPress, Wix",
+  miscellaneous: "GIT, WordPress, Wix, ChatGpt",
 };
 
 const SkillContainer = () => {

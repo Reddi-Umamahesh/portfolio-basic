@@ -2,7 +2,7 @@ import React from 'react'
 
 const MoreProjects = () => {
   return (
-    <div>MoreProjects</div>
+    <div className=' text-white'>MoreProjects</div>
   )
 }
 
