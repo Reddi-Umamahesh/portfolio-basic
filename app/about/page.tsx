@@ -36,8 +36,8 @@ const About = () => {
             </h3>
             <p className=" flex self-center w-5/6 text-md m-2 p-4 leading-loose">
               My journey in Full Stack Development began a year ago, and since
-              then, I've been dedicated to staying at the forefront of
-              technology trends. I've successfully delivered projects that not
+              then, Ive been dedicated to staying at the forefront of
+              technology trends. Ive successfully delivered projects that not
               only meet but exceed client expectations, demonstrating my
               commitment to quality and innovation.
             </p>
@@ -98,7 +98,7 @@ const About = () => {
             </ul>
           </div>
           <div className=" ml-12 mt-4">
-            <h3 className=" flex self-start text-yellow">Let's Collaborate:</h3>
+            <h3 className=" flex self-start text-yellow">Lets Collaborate:</h3>
             <p className=" flex self-center w-5/6 text-md p-2 leading-loose">
               I am eager to take on new challenges and contribute my skills to
               your project. Whether you have a specific idea in mind or need
@@ -109,7 +109,7 @@ const About = () => {
         </div>
         <div className=" flex self-center">
           <p className="capitalize p-2 m-2 mt-10 text-twitter-color  font-extralight">
-            Feel free to reach out, and let's create something extraordinary
+            Feel free to reach out, and lets create something extraordinary
             together!
           </p>
         </div>
