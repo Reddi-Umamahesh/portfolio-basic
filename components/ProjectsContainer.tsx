@@ -35,7 +35,7 @@ const ProjectsContainer = () => {
   return (
     <div className=" text-white m-2 p-2 gap-2 flex flex-col">
       <h2 className=" text-xl">Projects</h2>
-      <div className=" flex flex-wrap p-2 gap-8 justify-between">
+      <div className=" grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 p-2 gap-8 justify-evenly">
         {projects.map((item, index) => {
           return <ProjectCard {...item} key={index} />;
         })}
