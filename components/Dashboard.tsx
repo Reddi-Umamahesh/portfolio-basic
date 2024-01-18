@@ -4,7 +4,7 @@ import Projects from "./Projects";
 
 const Dashboard = () => {
   return (
-    <div className="md:ml-72 m-2 mt-10 rounded-lg">
+    <div className="lg:ml-72 m-2 mt-10 rounded-lg max-h-screen">
       <Cover />
       <Projects />
     </div>
