@@ -26,7 +26,8 @@ const config: Config = {
       "upwork-color": "#7CFC00",
       "insta-pink": "#d62976",
       "yellow": "#FFFF00",
-      "white": "#ffffff"
+      "white": "#ffffff",
+      "black-shade": "#0D0D0D"
     },
     extend: {
       backgroundImage: {
