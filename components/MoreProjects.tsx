@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const MoreProjects = () => {
-  return (
-    <div className=' text-white'>MoreProjects</div>
-  )
-}
+  return <div className=" text-white">MoreProjects</div>;
+};
 
-export default MoreProjects
+export default MoreProjects;
