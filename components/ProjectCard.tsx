@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Roboto, Lato } from "next/font/google";
-import { FaGithub } from "react-icons/fa6";
+import {FaGithub} from 'react-icons/fa6'
 
 type ProjectCardProp = {
   title: string;
@@ -22,19 +22,11 @@ const ProjectCard = ({ title, description, img, link }: ProjectCardProp) => {
         width={300}
         className=" h-52 w-full lg:w-56 md:h-32 rounded-lg"
       />
-      <h2
-        className={`${roboto.className} text-black-color flex self-start p-1`}
-      >
+      <h2 className={`${roboto.className} text-black-color flex self-start p-1`}>
         {title}
       </h2>
-      <p className={`text-black-color  text-xs w-full md:w-fit m-1 p-1`}>
-        {description}
-      </p>
-      <a
-        target="_blank"
-        href={link}
-        className=" flex items-center space-x-2 text-btn-secondary self-end p-1 m-1"
-      >
+      <p className={`text-black-color  text-xs w-full md:w-fit m-1 p-1`}>{description}</p>
+      <a target="_blank" href={link} className=" flex items-center space-x-2 text-btn-secondary self-end p-1 m-1">
         <p className=" text-sm">Git repository</p>
         <FaGithub className=" text-xl" />
       </a>
