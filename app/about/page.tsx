@@ -14,16 +14,16 @@ const nuni = Nunito({ subsets: ["latin"], weight: "300" });
 const About = () => {
   return (
     <section className=" flex justify-center items-center">
-      <div className=" flex justify-center m-1 p-1">
+      <div className=" flex justify-center m-1 p-2 text-sm">
         <div
-          className={`lg:ml-72 m-2 mt-14 bg-card-primary rounded-lg text-white flex flex-col flex-wrap justify-center p-7 w-3/4 ${nuni.className} text-lg text-wrap`}
+          className={`lg:ml-72 m-2 mt-14 bg-card-primary rounded-lg text-white flex flex-col flex-wrap justify-center p-7 w-3/4 ${nuni.className} text-sm lg:text-lg text-wrap`}
         >
           <h1
             className={`${noto.className} text-2xl self-center text-twitter-color font-bold m-2 p-1`}
           >
             About Me
           </h1>
-          <div className={` my-2 leading-relaxed text-lg self-center`}>
+          <div className={` my-2 leading-relaxed self-center`}>
             Greetings! I am a passionate and dedicated web developer with a
             solid year of experience in Full Stack Development. My expertise
             lies in the MERN (MongoDB, Express.js, React, Node.js) stack,
@@ -32,7 +32,7 @@ const About = () => {
           </div>
           <div className=" my-2">
             <h2
-              className={`my-2 py-2 text-xl text-insta-pink font-semibold ${merri.className} border-b border-black-color`}
+              className={`my-2 py-2 text-lg lg:text-xl text-insta-pink font-semibold ${merri.className} border-b border-black-color`}
             >
               Why Word With Me?
             </h2>
@@ -51,9 +51,9 @@ const About = () => {
               />
             </div>
           </div>
-          <div className=" my-2">
+          <div className=" my-2 text-sm lg:text-lg">
             <h2
-              className={`py-2 text-xl text-yellow font-semibold ${merri.className} border-b border-black-color`}
+              className={`py-2 text-lg lg:text-xl text-yellow font-semibold ${merri.className} border-b border-black-color`}
             >
               Professional Journey
             </h2>
@@ -65,9 +65,9 @@ const About = () => {
               and innovation.
             </p>
           </div>
-          <div className=" my-2">
+          <div className=" my-2 text-sm lg:text-lg">
             <h2
-              className={`py-2 text-xl text-linkedIn-color border-b border-black-color font-semibold ${merri.className}`}
+              className={`py-2 text-lg lg:text-xl text-linkedIn-color border-b border-black-color font-semibold ${merri.className}`}
             >
               Lets Collaborate
             </h2>
@@ -78,10 +78,8 @@ const About = () => {
               life.
             </p>
           </div>
-          <div className="my-1 p-4 text-center flex flex-col items-center">
-            <p
-              className={`text-xl ${merri.className} text-insta-pink font-semibold`}
-            >
+          <div className="my-1 p-4 text-center flex flex-col items-center text-sm lg:text-lg">
+            <p className={`${merri.className} text-insta-pink font-semibold`}>
               Feel free to reach out, and les create something extraordinary
               together!
             </p>

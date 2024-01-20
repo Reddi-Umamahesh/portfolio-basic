@@ -4,7 +4,7 @@ const noto = Noto_Sans({subsets: ['greek'], weight: ['500']})
 
 const AboutMe = ({ title, content }: { title: string; content: string; }) => {
   return (
-    <div className="">
+    <div className=" text-sm lg:text-lg">
       <ul>
         <li>
           <h3 className={` my-1 ${noto.className} text-upwork-color`}>{title}:</h3>
