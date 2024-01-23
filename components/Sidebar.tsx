@@ -42,7 +42,7 @@ const socials: Socials[] = [
 const freelance: Socials[] = [
   {
     text: "Fiver",
-    url: "",
+    url: "http://www.fiverr.com/s/r6V4DP",
     icon: <SiFiverr />,
     color: "text-fiver-color",
   },

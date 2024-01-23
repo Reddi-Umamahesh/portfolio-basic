@@ -11,7 +11,7 @@ type NavbarProps = {
 
 const Navbar: React.FC<NavbarProps> = ({ onToggleSidebar }) => {
   return (
-    <nav className=" flex bg-btn-highlight text-primary p-1 items-center justify-center fixed w-full z-20">
+    <nav className=" flex bg-btn-secondary p-1 items-center justify-center fixed w-full z-20 text-white">
       <ul
         className={` flex gap-x-7 p-2 mx-3  ${poppins.className}`}
       >

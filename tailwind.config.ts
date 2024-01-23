@@ -30,6 +30,9 @@ const config: Config = {
       "black-shade": "#0D0D0D"
     },
     extend: {
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      },
       backgroundImage: {
         'cover-pic': "url('/public/cover-bg-1.svg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
