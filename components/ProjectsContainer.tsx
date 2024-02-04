@@ -16,6 +16,13 @@ const projects: Project[] = [
     link: "https://github.com/Arjun149133/ShopKart-vite"
   },
   {
+    title: "NextJs App",
+    description:
+      "NextJs, React, React Hooks, TailwindCss",
+    img: "/nextjs.webp",
+    link: "https://github.com/Arjun149133/ShopKart-vite"
+  },
+  {
     title: "CvBuilder",
     description: "React, React Hooks, TailwindCss, ContextApi",
     img: "/cvbuilder.webp",
@@ -32,7 +39,7 @@ const projects: Project[] = [
     description:
       "Backend Restful using Nodejs, expressjs, mongodb, postman, pug-template-engine, Jwt Authentication",
     img: "/library.jpeg",
-    link: ""
+    link: "https://github.com/Arjun149133/Library-Nodejs"
   },
 ];
 
