@@ -20,7 +20,7 @@ const projects: Project[] = [
     description:
       "NextJs, React, React Hooks, TailwindCss",
     img: "/nextjs.webp",
-    link: "https://github.com/Arjun149133/ShopKart-vite"
+    link: "https://github.com/Arjun149133/Nextjs-App"
   },
   {
     title: "CvBuilder",
