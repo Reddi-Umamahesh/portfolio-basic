@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaTwitter, FaCross } from "react-icons/fa6";
 import { SiFiverr, SiFreelancer, SiUpwork } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
 import { Poppins } from "next/font/google";
-
+import { IoLogoVercel } from "react-icons/io5";
 type Socials = {
   text: string;
   url: string;
@@ -21,39 +21,25 @@ const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 const socials: Socials[] = [
   {
     text: "LinkedIn",
-    url: "https://www.linkedin.com/in/arjun-yadav-4aa978261/",
+    url: "https://www.linkedin.com/in/umamahesh-reddi/",
     icon: <FaLinkedin />,
     color: "text-linkedIn-color",
   },
   {
     text: "Github",
-    url: "https://github.com/Arjun149133",
+    url: "https://github.com/Reddi-Umamahesh",
     icon: <FaGithub />,
     color: "",
   },
   {
-    text: "Twitter",
-    url: "https://twitter.com/AArjunY",
-    icon: <FaTwitter />,
+    text: "Vercel",
+    url: "https://vercel.com/reddiumamaheshs-projects",
+    icon: <IoLogoVercel />,
     color: "text-twitter-color",
   },
 ];
 
-const freelance: Socials[] = [
-  {
-    text: "Fiver",
-    url: "http://www.fiverr.com/s/r6V4DP",
-    icon: <SiFiverr />,
-    color: "text-fiver-color",
-  },
-  {
-    text: "Freelancer",
-    url: "",
-    icon: <SiFreelancer />,
-    color: "text-freelancer-color",
-  },
-  { text: "Upwork", url: "", icon: <SiUpwork />, color: "text-upwork-color" },
-];
+const freelance: Socials[] = [];
 
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggleSidebar }) => {
   return (
@@ -64,7 +50,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggleSidebar }) => {
     >
       <div className=" flex justify-end text-xl lg:hidden">
         <button onClick={onToggleSidebar}>
-        <IoMdClose />
+          <IoMdClose />
         </button>
       </div>
       <div className=" flex flex-col items-center">
@@ -95,9 +81,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onToggleSidebar }) => {
         })}
       </div>
       <div className=" flex flex-col items-center">
-        <p className="flex self-start ml-5 pb-5 font-semibold text-insta-pink">
-          freelancing
-        </p>
+        <p className="flex self-start ml-5 pb-5 font-semibold text-insta-pink"></p>
         {freelance.map((item, index) => {
           const { text, url, icon, color } = item;
           return (

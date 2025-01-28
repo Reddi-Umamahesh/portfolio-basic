@@ -1,8 +1,7 @@
 import React from "react";
 import Cover from "./Cover";
-import Projects from "./Projects";
+import Projects from "./ProjectsContainer";
 import SkillsContainer from "./SkillsContainer";
-import MoreProjects from "./MoreProjects";
 
 const Dashboard = () => {
   return (
@@ -11,7 +10,6 @@ const Dashboard = () => {
         <Cover />
         <Projects />
         <SkillsContainer />
-        <MoreProjects />
       </div>
     </section>
   );

@@ -5,41 +5,33 @@ type Project = {
   description: string;
   img: string;
   link: string;
+  git: string;
 };
 
 const projects: Project[] = [
   {
-    title: "Shopping Cart",
+    title: "Syncpick",
     description:
-      "React, Vite, ContextApi, React Hooks, Comfy-Store Api, Redux-State Management, TailwindCss",
-    img: "/shoppingKart.avif",
-    link: "https://github.com/Arjun149133/ShopKart-vite"
+      "Urban Clamp CLone , Express ,  MongoDB , MVC frame work , EJS ,Bootstrap , Mapbox",
+    img: "/syncpick.jpeg",
+    link: "https://syncpick.onrender.com/listings",
+    git: "https://github.com/Reddi-Umamahesh/Syncpick",
   },
   {
-    title: "NextJs App",
+    title: "KnightsChess",
     description:
-      "NextJs, React, React Hooks, TailwindCss",
-    img: "/nextjs.webp",
-    link: "https://github.com/Arjun149133/Nextjs-App"
+      "React ,Express.js , Websockets , Postgres , Prisma ,Shandcn React Hooks, TailwindCss",
+    img: "/project.png",
+    link: "https://github.com/Reddi-Umamahesh/KnightsChess",
+    git: "",
   },
   {
-    title: "CvBuilder",
-    description: "React, React Hooks, TailwindCss, ContextApi",
-    img: "/cvbuilder.webp",
-    link: "https://github.com/Arjun149133/CvBuilder-react-vite"
-  },
-  {
-    title: "MemoryGame",
-    description: "React, Context Api, Api Usage, TailwindCss",
-    img: "/poke.jpg",
-    link: "https://github.com/Arjun149133/FinalMemoryGame"
-  },
-  {
-    title: "Library",
-    description:
-      "Backend Restful using Nodejs, expressjs, mongodb, postman, pug-template-engine, Jwt Authentication",
-    img: "/library.jpeg",
-    link: "https://github.com/Arjun149133/Library-Nodejs"
+    title: "BattleShip",
+    description: "HTML , CSS , Javascript",
+    img: "/bs2.png",
+
+    link: "https://reddi-umamahesh.github.io/Battleship/",
+    git: "https://github.com/Reddi-Umamahesh/Battleship",
   },
 ];
 

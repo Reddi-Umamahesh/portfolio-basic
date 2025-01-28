@@ -8,9 +8,10 @@ type Skill = {
 };
 
 const skills: Skill = {
-  frontend: "HTML, CSS, Tailwind, JavaScript, TypeScript, React Js, Next Js 13, Redux",
-  backend: "Node Js, Express Js, Next Auth, JWT",
-  database: "MongoDB, MySql",
+  frontend:
+    "HTML, CSS, Tailwind, JavaScript, TypeScript, React Js, Next Js 13, Redux , Recoil",
+  backend: "Node Js, Express Js, Next Auth, JWT , Websockets",
+  database: "MongoDB, MySql , Postgres , Prisma",
   miscellaneous: "GIT, WordPress, Wix, ChatGpt",
 };
 
