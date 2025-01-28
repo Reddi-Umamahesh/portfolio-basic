@@ -4,8 +4,9 @@ import { Noto_Sans, Merriweather, Nunito } from "next/font/google";
 import { IoMailOpenOutline } from "react-icons/io5";
 
 export const metadata: Metadata = {
-  title: "About | Arjun",
+  title: "About | Umamahesh",
 };
+
 
 const noto = Noto_Sans({ subsets: ["greek"] });
 const merri = Merriweather({ subsets: ["latin"], weight: ["300"] });
@@ -71,7 +72,7 @@ const About = () => {
             <h2
               className={`py-2 text-lg lg:text-xl text-linkedIn-color border-b border-black-color font-semibold ${merri.className}`}
             >
-              Let's Collaborate
+              Collaborate
             </h2>
             <p className="p-1">
               I am excited to take on new challenges and contribute my expertise
@@ -81,7 +82,7 @@ const About = () => {
           </div>
           <div className="my-1 p-4 text-center flex flex-col items-center text-sm lg:text-lg">
             <p className={`${merri.className} text-insta-pink font-semibold`}>
-              Feel free to reach out, and let's create something extraordinary
+              Feel free to reach out, and let us  create something extraordinary
               together!
             </p>
             <div className="mt-2 flex items-center gap-2">
